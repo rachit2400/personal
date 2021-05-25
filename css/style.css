@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+
+.container{
+    height: 650vh;
+}
+
+.sub{
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3vw;
+}
+
+.card1{
+    padding: 20px;
+    width: 20%;
+    
+}
+.card2{
+    width: 30%;
+    padding: 20px;
+    
+}
+.card3{
+    padding: 2vw;
+    width: 50%;
+}
+
+.card img{
+    width: 100%;
+}
+
+.text{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2vw;
+}
+
+@media(max-width:700px){
+    .sub{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 50%;
+        text-align: center;
+    }
+    .card1 img{
+        width: 40%;
+    }
+}
